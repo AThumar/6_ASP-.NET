@@ -13,16 +13,7 @@
         <p>
             &nbsp;</p>
         <p>
-            HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</p>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="height: 29px" Text="Button" />
-        </p>
+            HIIIIIIIII</p>
     </form>
 </body>
 </html>
