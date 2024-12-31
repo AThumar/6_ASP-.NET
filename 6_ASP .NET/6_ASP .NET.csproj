@@ -75,12 +75,17 @@
     <Content Include="Assignment1_Q4.aspx" />
     <Content Include="calculator.aspx" />
     <Content Include="adrotatar.aspx" />
+    <Content Include="download %285%29.jpg" />
+    <Content Include="download.jpg" />
+    <Content Include="Screenshot 2024-12-30 101230.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="WebForm4.aspx" />
+    <Content Include="WIN_20241003_14_00_41_Pro.jpg" />
     <Content Include="XMLFile1.xml" />
+    <Content Include="XMLFile2.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.aspx.cs">
@@ -177,6 +182,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

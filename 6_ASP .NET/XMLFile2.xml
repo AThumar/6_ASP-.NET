@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+	<ImageUrl>
+	download (5).jpg
+	</ImageUrl>
+	<Keyword>hii</Keyword>
+	<NavigateUrl>download.jpg</NavigateUrl>
+	<AlternateText>Hello</AlternateText>
+	<Impression>3</Impression>
+	</Ad>
+</Advertisements>
