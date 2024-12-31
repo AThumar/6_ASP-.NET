@@ -22,6 +22,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
         </p>
+        <asp:Label ID="Label3" runat="server" Text="22SOECE11059"></asp:Label>
     </form>
 </body>
 </html>
