@@ -20,7 +20,7 @@ namespace _6_ASP.NET
             {
 
                 string filename = FileUpload1.FileName;
-                string path = Server.MapPath("~/files ") + filename;
+                string path = Server.MapPath("~/files/ ") + filename;
                 FileUpload1.SaveAs(path);
                 Label1.Text = "File Uploaded Successfully";
 

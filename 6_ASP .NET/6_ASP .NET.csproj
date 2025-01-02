@@ -75,6 +75,7 @@
     <Content Include="Assignment1_Q4.aspx" />
     <Content Include="calculator.aspx" />
     <Content Include="adrotatar.aspx" />
+    <Content Include="Calender.aspx" />
     <Content Include="download %285%29.jpg" />
     <Content Include="download.jpg" />
     <Content Include="Screenshot 2024-12-30 101230.png" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="adrotatar.aspx.designer.cs">
       <DependentUpon>adrotatar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calender.aspx.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calender.aspx.designer.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
