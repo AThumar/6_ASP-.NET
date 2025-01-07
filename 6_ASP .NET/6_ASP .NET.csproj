@@ -78,6 +78,7 @@
     <Content Include="Calender.aspx" />
     <Content Include="download %285%29.jpg" />
     <Content Include="download.jpg" />
+    <Content Include="files\WebForm1withMasterPage.aspx" />
     <Content Include="Screenshot 2024-12-30 101230.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -152,6 +153,13 @@
     <Compile Include="Calender.aspx.designer.cs">
       <DependentUpon>Calender.aspx</DependentUpon>
     </Compile>
+    <Compile Include="files\WebForm1withMasterPage.aspx.cs">
+      <DependentUpon>WebForm1withMasterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="files\WebForm1withMasterPage.aspx.designer.cs">
+      <DependentUpon>WebForm1withMasterPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -199,9 +207,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="files\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
