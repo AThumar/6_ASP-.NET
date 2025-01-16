@@ -36,5 +36,7 @@ namespace _6_ASP.NET.files
             MultiView1.SetActiveView(view2);
 
         }
+
+       
     }
 }
