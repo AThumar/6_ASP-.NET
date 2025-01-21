@@ -12,7 +12,7 @@
             name :&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please Enter Your Name" ControlToValidate="TextBox1" ForeColor="#FF3300"></asp:RequiredFieldValidator><br />
             sem :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="You can not go above 6" ControlToValidate="TextBox2" ForeColor="Red"></asp:RangeValidator><br />
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="You can not go above 6" ControlToValidate="TextBox2" ForeColor="Red" Type="Integer" MaximumValue="6" MinimumValue="1"></asp:RangeValidator><br />
             branch : <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Required" ControlToValidate="TextBox3" ForeColor="#FF3300"></asp:RequiredFieldValidator><br />
             password :&nbsp; <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br />
