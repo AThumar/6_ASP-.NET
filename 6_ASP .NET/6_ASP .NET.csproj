@@ -80,6 +80,7 @@
     <Content Include="download.jpg" />
     <Content Include="files\A3_Q1.aspx" />
     <Content Include="files\A3_Q2.aspx" />
+    <Content Include="files\database.aspx" />
     <Content Include="files\multiview.aspx" />
     <Content Include="files\WebForm1withMasterPage.aspx" />
     <Content Include="Screenshot 2024-12-30 101230.png" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="files\A3_Q2.aspx.designer.cs">
       <DependentUpon>A3_Q2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="files\database.aspx.cs">
+      <DependentUpon>database.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="files\database.aspx.designer.cs">
+      <DependentUpon>database.aspx</DependentUpon>
     </Compile>
     <Compile Include="files\multiview.aspx.cs">
       <DependentUpon>multiview.aspx</DependentUpon>
